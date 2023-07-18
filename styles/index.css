@@ -1,0 +1,35 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav >ul{
+    display: flex;
+    gap: 20px;
+    padding-right: 50px;
+}
+
+.pritam{
+    display: flex;
+}
+
+.photo{
+    border-radius: 10px;
+}
+
+.logos{
+    gap: 100px;
+    display: flex
+}
+.image-one{
+    margin-right: 50px;
+}
+
+
+@media screen and (max-width:576px) {
+    .pritam{
+        flex-direction: column-reverse;
+    }
+   }
+        
+
